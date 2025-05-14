@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Cheddad Okba Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Code&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Fira Code', monospace;
+      background-color: #0f1117;
+      color: #f5f5f5;
+      display: flex;
+      min-height: 100vh;
+    }
+
+    aside {
+      background-color: #1a1d29;
+      width: 280px;
+      padding: 30px 20px;
+      position: fixed;
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      border-right: 2px solid #2c2f3a;
+    }
+
+    aside h1 {
+      font-size: 1.5em;
+      color: #00ffae;
+      margin-bottom: 10px;
+    }
+
+    aside p {
+      font-size: 0.9em;
+      line-height: 1.6;
+      color: #ccc;
+    }
+
+    aside a {
+      color: #00ffae;
+      text-decoration: none;
+    }
+
+    main {
+      margin-left: 280px;
+      padding: 40px;
+      flex: 1;
+      animation: fadeIn 1s ease-in;
+    }
+
+    section {
+      margin-bottom: 40px;
+    }
+
+    h2 {
+      margin-bottom: 10px;
+      font-size: 1.3em;
+      border-left: 5px solid #00ffae;
+      padding-left: 10px;
+    }
+
+    ul {
+      list-style-type: '✨ ';
+      margin-left: 20px;
+    }
+
+    li {
+      margin-bottom: 6px;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    .contact-info {
+      margin-top: 20px;
+    }
+
+    .emoji-title {
+      font-size: 1.1em;
+    }
+  </style>
+</head>
+<body>
+  <aside>
+    <div>
+      <h1>👨‍💻 Cheddad Okba</h1>
+      <div class="contact-info">
+        <p>📞 <strong>Phone:</strong><br> +213 675 29 54 94</p>
+        <p>📧 <strong>Email:</strong><br> <a href="mailto:gokbahack@gmail.com">gokbahack@gmail.com</a></p>
+        <p>🌐 <strong>GitHub:</strong><br> <a href="https://github.com/okbach" target="_blank">okbach</a></p>
+        <p>📱 <strong>Play Store:</strong><br> <a href="https://play.google.com/store/apps/dev?id=5230316150538098309" target="_blank">My Apps</a></p>
+      </div>
+    </div>
+    <p style="font-size: 0.8em;">🧠 "Build. Break. Learn. Repeat."</p>
+  </aside>
+
+  <main>
+    <section>
+      <h2>🧠 About Me</h2>
+      <p>
+        Self-taught full-stack developer passionate about building real-world systems, frameworks, and smart devices. I specialize in backend APIs, embedded systems, and modern web architectures.
+      </p>
+    </section>
+
+    <section>
+      <h2>🛠️ Skills</h2>
+      <ul>
+        <li>PHP (Custom Framework)</li>
+        <li>Node.js / NestJS</li>
+        <li>Prisma ORM</li>
+        <li>RESTful APIs</li>
+        <li>MySQL / PostgreSQL</li>
+        <li>Arduino / ESP32 / IoT</li>
+        <li>HTMX, HTML/CSS/JS</li>
+        <li>Python + OpenCV</li>
+        <li>Android Native Development</li>
+        <li>Firebase, Git, Postman</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>🚀 Projects</h2>
+      <ul>
+        <li>Custom PHP Framework (HTMX-ready)</li>
+        <li>SaaS Inventory System (NestJS + Prisma)</li>
+        <li>Delphi FMX Games (Minesweeper, Amazons)</li>
+        <li>IoT Systems (Sensors, ESP32, WiFi control)</li>
+        <li>Android Utility Apps (Published)</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>📚 Learning Philosophy</h2>
+      <p>
+        > “Build real things. Break them. Fix them. That’s how you learn.”<br>
+        Reading docs, experimenting, learning from open-source projects, and using courses only when necessary.
+      </p>
+    </section>
+
+    <section>
+      <h2>🌐 Languages</h2>
+      <p>🇦🇪 Arabic: Native<br>🇬🇧 English: Intermediate</p>
+    </section>
+
+    <section>
+      <h2>🌍 Vision</h2>
+      <p>
+        I don’t just build software — I build with <strong>purpose</strong>. My goal is to leave a positive mark in the world through technology.
+      </p>
+    </section>
+  </main>
+</body>
+</html>
